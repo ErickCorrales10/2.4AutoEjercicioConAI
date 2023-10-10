@@ -24,7 +24,7 @@ Unidad:
 2
 
 Título del trabajo:
-2.3 Corrida de programas ARM32 (apoyados en  KERNEL de Linux)
+2.4 AutoEjercicios con AI
 
 Estudiante:
 Corrales Quintero Erick Roberto   -  23211004
