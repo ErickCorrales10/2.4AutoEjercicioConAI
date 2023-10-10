@@ -1,4 +1,4 @@
-@@
+/*@@
     @@ Instituto Tecnológico de Tijuana
     @@ Depto de Sistemas y Computación
     @@ Ing. En Sistemas Computacionales
@@ -9,7 +9,7 @@
     @@
     @
     @ Objetivo del programa:
-    @    Generar números aleatorios
+    @    Generar números aleatorios*/
 
 /*---------------------------------------------------------------*/
 /*                      Solucion en C                           */
