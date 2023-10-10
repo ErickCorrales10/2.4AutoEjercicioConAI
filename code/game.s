@@ -1,4 +1,4 @@
-@@
+/*@@
     @@ Instituto Tecnológico de Tijuana
     @@ Depto de Sistemas y Computación
     @@ Ing. En Sistemas Computacionales
@@ -10,6 +10,7 @@
     @
     @ Objetivo del programa:
     @    Programa que permite jugar al juego de adivina el número
+    */
 
 /*---------------------------------------------------------------*/
 /*                      Solucion en C                           */
