@@ -14,37 +14,38 @@
 /*---------------------------------------------------------------*/
 /*                      Solucion en C                           */
 /*--------------------------------------------------------------*/
-@
-@#include <stdio.h>     
-@#include <stdlib.h>    // Including the standard library header file for functions like rand and srand.
-@#include <time.h>      // Including the time header file for generating random seed.
-@
-@/**
-@ * Generates and prints random numbers.
-@ *
-@ * @param count: The number of random numbers to generate and print.
-@ */
-@void generateAndPrintRandomNumbers(int count) {
-@    // Setting the seed for the random number generator using the current time.
-@    srand(time(NULL));
-@
-@    printf("Random Numbers:\n");
-@
-@    for (int i = 0; i < count; i++) {
-@        // Generating a random number between 0 and RAND_MAX.
-@        int randomNumber = rand();
-@        printf("%d\n", randomNumber);
-@    }
-@}
-@
-@// Usage example for generateAndPrintRandomNumbers
-@
-@int main() {
-@    // Example: Generate and print 5 random numbers.
-@    generateAndPrintRandomNumbers(5);
-@
-@    return 0;
-@}
+/*
+#include <stdio.h>     
+#include <stdlib.h>    // Including the standard library header file for functions like rand and srand.
+#include <time.h>      // Including the time header file for generating random seed.
+*/
+/*
+ * Generates and prints random numbers.
+ *
+ * @param count: The number of random numbers to generate and print.
+ */
+ /*
+ void generateAndPrintRandomNumbers(int count) {
+    // Setting the seed for the random number generator using the current time.
+    srand(time(NULL));
+
+    printf("Random Numbers:\n");
+
+    for (int i = 0; i < count; i++) {
+        // Generating a random number between 0 and RAND_MAX.
+        int randomNumber = rand();
+        printf("%d\n", randomNumber);
+    }
+}
+
+// Usage example for generateAndPrintRandomNumbers
+
+int main() {
+    // Example: Generate and print 5 random numbers.
+    generateAndPrintRandomNumbers(5);
+
+    return 0;
+}*/
 
 
 
