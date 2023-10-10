@@ -20,21 +20,23 @@
 #include <stdio.h>  // Including the standard input-output header file for functions like printf.
 #include <stdlib.h> // Including the standard library header for functions like malloc and exit.
 #include <time.h>   // Including the time header for generating random numbers.
- 
-/**
+*/
+/*
  * Generates a random number between a specified minimum and maximum value.
  *
  * @param min: The minimum value for the random number.
  * @param max: The maximum value for the random number.
  * @return: The generated random number.
  */
+/*
 int generateRandomNumber(int min, int max) {
     // Generating a random number using the current time as the seed.
     srand(time(NULL));
     return (rand() % (max - min + 1)) + min;
 }
+*/
  
-/**
+/*
  * Generates a game.
  *
  * This function generates a game by performing the following steps:
@@ -45,7 +47,8 @@ int generateRandomNumber(int min, int max) {
  *
  * @return: The number of attempts it took the user to guess the correct number.
  */
-int generateGame() {
+
+/*int generateGame() {
     int randomNumber = generateRandomNumber(1, 100);
     int guess;
     int attempts = 0;
