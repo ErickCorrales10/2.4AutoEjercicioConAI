@@ -15,7 +15,7 @@
 /*                      Solucion en C                           */
 /*--------------------------------------------------------------*/
 @
-@#include <stdio.h>     // Including the standard input-output header file for functions like printf.
+@#include <stdio.h>     
 @#include <stdlib.h>    // Including the standard library header file for functions like rand and srand.
 @#include <time.h>      // Including the time header file for generating random seed.
 @
